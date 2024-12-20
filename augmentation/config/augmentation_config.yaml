@@ -1,0 +1,14 @@
+augmentation:
+  img_extension: ".jpg"
+  # num_landmark_aug: 3  # Number of landmark-aware augmentations
+  num_traditional_aug: 2  # Number of traditional augmentations
+  # num_occlusion_aug: 2  # Number of occlusion augmentations
+  flip_probability: 0.3
+  brightness_range: [0.8, 1.3]
+  contrast_range: [0.9, 1.1]
+  noise_scale: [0, 0.02]
+  rotation_range: [-10, 10]
+  crop_percent: [0, 0.05]
+paths:
+  original_data: "./data/train"
+  augmented_data: "./data/augmentation/"
