@@ -1,0 +1,1 @@
+print(os.listdir(CONFIG['embeddings_path'])[-1])
